@@ -205,8 +205,8 @@ section .container {
 
 footer {
     padding: 30px 0;
-    background-color: #1F2937;
     color: white;
+    background-color: #1F2937;
 }
 
 footer .container {
