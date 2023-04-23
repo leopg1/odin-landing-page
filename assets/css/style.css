@@ -1,0 +1,216 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation bar  */
+
+nav {
+    background-color: #1F2937;
+    color: white;
+    padding: 20px 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 1280px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 32px;    
+}
+
+nav #logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.items {
+    display: flex;
+    list-style: none;
+}
+
+.items li {
+    margin: 15px;
+    font-weight: 300;
+}
+
+/* Header */
+header {
+    background-color: #1F2937;
+    padding: 105px 0;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header #main-text {
+    font-size: 48px;
+    color: #F9FAF8; 
+    font-weight: 900;
+}
+
+header #secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.container img {
+    width: 25%;
+}
+
+.header-main {
+    text-align: left;
+    padding-right: 10%;
+}
+
+#header-button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 12px 35px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+/* First section */
+
+.info {
+    background-color: white;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.info-text {
+    font-size: 36px;
+    color: #1F2937;
+    padding-bottom: 60px;
+    padding-top: 0px;
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    text-align: center;
+}
+
+.cards .card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.cards .box {
+    height: 150px;
+    border-radius: 12px;
+    border: 4px solid #3882F6;
+    padding: 70px;
+    margin-bottom: 10px;
+    background-color: #e5e5f7;
+}
+/* Quote Section */
+
+.quote {
+    background-color: #E5E7Eb;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text h1 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: left;
+    color: #1F2937;
+}
+
+.quote-text h2 {
+    font-weight: bold;
+    color: #1F2937;
+    text-align: right;
+}
+
+
+/* Contact Section */
+
+.contact {
+    background-color: white;
+    height: 40vh;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+}
+
+.contact .container {
+    background-color: #3882F6;
+    border-radius: 12px;
+    padding: 50px 100px;
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .contact-text #first {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+.container .contact-text #second {
+    font-size: 18px;
+    margin: 0;
+    color: white;
+}
+
+.contact button {
+    font-weight: 700;
+    padding: 8px 30px;
+    color: white;
+    border: 3px solid white;
+    background-color: #3882F6;
+    border-radius: 12px;
+}
+
+/* Navbar */
+
+footer {
+    padding: 30px 0;
+    background-color: #1F2937;
+    color: white;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
